@@ -6,7 +6,8 @@ const {db} = require('./database/db.js');
 
 db.once('open', ()=>{
     console.log("connected to database");
-    const server = app.listen(process.env.PORT || 8080, () => console.log('listening'));
+    app.set('port', process.env.PORT || 8080);
+    const server = app.listen(app.settings.port, () => console.log('listening on ', app.settings.port));
 });
 
 app.use(express.static('public'));
