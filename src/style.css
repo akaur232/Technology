@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+html {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.background{
+    background-image: url('../public/company.webp');
+    background-repeat: no-repeat;
+    width: auto;
+    height: 650px;
+}
+
+header{
+    background-color: rgba(255,255,250,0.6);
+    padding: 15px;
+}
+header img{
+    float: left;
+    width: 70px;
+    height: 70px;
+    padding-left: 25px;
+}
+header h1{
+    float: left;
+    padding-left: 20px;
+}
+nav{
+    background-color: rgba(255,255,250,0.6);
+    padding: 2px;
+    margin-top: 5px;
+}
+
+nav ul{
+    text-align: right;
+    padding-right: 50px;
+}
+ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    padding-left: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#about{
+    margin: 100px;
+    background-color: white;
+    padding: 50px;
+}
+
+#faq{
+    padding: 50px;
+}
+
+#faq ul{
+    list-style-type: none;
+}
+#faq ul li:even{
+    
+}
+details{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border:2px solid white;
+    border-radius: 5px;
+}
+/*.gallery {*/
+/*    padding: 1rem;*/
+/*    color: cornflowerblue;*/
+/*    background-color: white;*/
+/*    border: 1px dashed brown;*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr 1fr;*/
+/*    grid-template-rows: min-content;*/
+/*    grid-auto-rows: 150px;*/
+/*    grid-gap: 1rem;*/
+/* }*/
+
+/*  .gallery h2 {*/
+/*    grid-column: 1 / 4;*/
+/*  }*/
+
+/*  .gallery img {*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    object-fit: cover;*/
+/*  }*/
+.ans{
+    text-align: right;
+}
+.ans button{
+    margin-top: -15px;
+}
+.question{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border:2px solid white;
+    border-radius: 5px;
+}
+
+.answer{
+    background-color: white;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+}
+
+#contact{
+    padding: 50px;
+    color: white;
+    background-color: black;
+}
+
+
+form{
+    padding: 50px;
+}
+formStyle{
+    box-sizing: border-box;
+}
+
+label{
+    float: left;
+    text-align: right;
+    width: 25%;
+}
+
+input {
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: black;
+    width: 70%;
+    resize: vertical;
+    margin-bottom: 40px;
+    float: none;
+}
+button{
+    text-align: left;
+    padding: 15px;
+    margin: 5px;
+}
+
+
